@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project1</title>
+</head>
+<body>
+    <header>
+        <div class="containerR">
+            <div class="container1">
+            <h2>START BOOTSTRAP</h2>
+    
+            </div>
+
+            <div class="menu">
+                <nav>
+                    <a href="home.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="Contact.html">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="containerq">
+            <div class="q">
+            <center><h1>A warm welcome!</h1></center>
+            <br>
+            <h4>Bootstrap utility classes are used to create this jumbotron since the old component has been</h4>
+            <br>
+            <center><h4>removed from the framework. Why create custom CSS when you can use utilities?</h4></center>
+            <button>Call to action</button>
+            </div>
+        </div>
+    </main>
+
+    
+</body>
+
+<style>
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+
+.containerR{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: rgb(0, 0, 0);
+   
+
+    & .container1 {
+        width: 60%;
+        color: white;
+        padding: 15px;;
+        
+    }   
+
+    & .menu {
+        width: 60%;
+        background: rgb(0, 0, 0);
+    }
+
+    & .menu nav{
+        background: rgb(0, 0, 0);
+        padding: 15px;
+    }
+
+    & .menu nav a {
+        color: white;
+        font-size: 18px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 15px;
+        text-decoration: none;
+
+    }
+
+    & .menu nav a:hover {
+        color: white;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 10px;
+        background: rgb(38, 40, 82);
+        border-radius: 16px;
+
+    }
+
+}
+main{
+    .containerq{
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        background-color: rgb(226, 221, 221);
+        margin: 65px;
+
+    & .button{
+       width: 100%;
+	   padding: 10px;
+	   background: #1f35ff;
+	   border-radius: 15px;
+    }
+
+    }
+    
+}
+
+</style>
+</html>
